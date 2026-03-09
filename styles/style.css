@@ -11,8 +11,58 @@
 /* common shared styles  start  */
 
 
+.dark-one {
+    color: rgba(19, 19, 19, 1);
+}
 
+.dark-two {
+    color: rgba(66, 66, 66, 1);
+}
 
+.dark-three {
+    color: rgba(114, 114, 114, 1);
+}
 
+.flexible {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* common shared styles  end*/
+
+
+/* header section start */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.header-container {
+    margin: 0rem 15rem;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+.brand {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-size: 1.12rem;
+    font-weight: medium;
+    gap: 2.5rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+/* header section end  */
