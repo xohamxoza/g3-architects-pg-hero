@@ -40,6 +40,10 @@
     color: rgba(255, 255, 255, 1);
 }
 
+.prime-color {
+    color: rgba(255, 144, 14, 1);
+}
+
 /* common shared styles  end*/
 
 
@@ -105,3 +109,36 @@ header {
     width: 100%;
 }
 /* header section end  */
+
+/* feature section start  */
+.feature-container {
+    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 15rem;
+    gap: 4rem;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+}
+
+.feature-description-container {
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.head-3 {
+    font-size: 2.8rem;
+}
+
+.feature-description {
+    font-size: 1rem;
+}
+
+.feature-description-container > button {
+    max-width: 11rem;
+}
+/* feature section end  */
