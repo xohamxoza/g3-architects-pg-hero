@@ -142,3 +142,57 @@ header {
     max-width: 11rem;
 }
 /* feature section end  */
+
+/* xp section start */
+.xp {
+    margin: 3rem 15rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.xp-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-left: 3px solid rgba(255, 144, 14, 1);
+    padding-left: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+.xp-description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+
+.xp-card {
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.card-description {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.xp-btn {
+    font-size: 4rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.small-text {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+/* xp section end  */
